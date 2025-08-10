@@ -78,9 +78,6 @@ with st.container():
             col_tab = st.columns(cols)
             cols_iterator = iter(cols_index)
             next(cols_iterator)
-                
-            for i in col_tab:
-                i.write('a')
 
 
             for (label, prob) in results:
