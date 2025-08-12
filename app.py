@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 
-model = models.load_model('intel_image_classification_model.h5')
+model = models.load_model('intel-image-classification.keras')
 
 with st.container():
 
